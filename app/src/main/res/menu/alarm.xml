@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_alarm_none"
+        android:title="@string/alarm_none"/>
+
+    <item android:id="@+id/menu_alarm_week"
+        android:title="@string/alarm_before_week"/>
+
+    <item android:id="@+id/menu_alarm_day"
+        android:title="@string/alarm_before_day"/>
+
+    <item android:id="@+id/menu_alarm_today"
+        android:title="@string/alarm_before_today"/>
+
+    <item android:id="@+id/menu_alarm_two_hour"
+        android:title="@string/alarm_before_two_hour"/>
+
+    <item android:id="@+id/menu_alarm_one_hour"
+        android:title="@string/alarm_before_one_hour"/>
+
+    <item android:id="@+id/menu_alarm_half_hour"
+        android:title="@string/alarm_before_half_hour"/>
+
+    <item android:id="@+id/menu_alarm_min"
+        android:title="@string/alarm_before_five_min"/>
+
+
+</menu>

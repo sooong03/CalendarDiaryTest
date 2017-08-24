@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_rrule_none"
+        android:title="@string/rrule_none"/>
+
+    <item android:id="@+id/menu_rrule_year"
+        android:title="@string/rrule_year"/>
+
+    <item android:id="@+id/menu_rrule_month"
+        android:title="@string/rrule_month"/>
+
+    <item android:id="@+id/menu_rrule_week"
+        android:title="@string/rrule_week"/>
+
+    <item android:id="@+id/menu_rrule_date"
+        android:title="@string/rrule_date"/>
+
+    <item android:id="@+id/menu_rrule_day"
+        android:title="@string/rrule_day"/>
+
+</menu>

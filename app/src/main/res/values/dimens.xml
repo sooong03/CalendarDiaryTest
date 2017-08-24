@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="_4dp">4dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_24dp">24dp</dimen>
+    <dimen name="size_36dp">36dp</dimen>
+    <dimen name="size_48dp">48dp</dimen>
+    <dimen name="size_56dp">56dp</dimen>
+
+    <dimen name="cal_width">50dp</dimen>
+    <dimen name="cal_height">45dp</dimen>
+
+    <!--Typographic-->
+    <dimen name="typo_title">24sp</dimen>
+    <dimen name="typo_btn">15sp</dimen>
+    <dimen name="typo_headline">20sp</dimen>
+    <dimen name="typo_headline_sub">17sp</dimen>
+    <dimen name="typo_body">15sp</dimen>
+    <dimen name="typo_caption">15sp</dimen>
+    <dimen name="typo_caption_sub">12sp</dimen>
+
+
+</resources>

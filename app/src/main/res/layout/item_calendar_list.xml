@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_4dp"
+    app:cardCornerRadius="@dimen/_4dp"
+    android:layout_margin="@dimen/_4dp"
+    app:contentPadding="@dimen/_8dp"
+    app:cardBackgroundColor="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_36dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:textSize="@dimen/typo_body"
+                android:textStyle="bold"
+                android:layout_gravity="start|fill_vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_8dp"/>
+
+            <ImageView
+                android:id="@+id/ivBtn"
+                android:layout_width="@dimen/size_24dp"
+                android:layout_height="@dimen/size_24dp"
+                app:srcCompat="@drawable/ic_more"
+                android:scaleType="centerCrop"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="@dimen/_8dp">
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textSize="@dimen/typo_title"
+                android:textStyle="bold"
+                android:layout_marginRight="@dimen/_16dp"
+                android:layout_marginLeft="@dimen/_8dp"/>
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="@dimen/typo_body"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPurpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="@dimen/typo_caption_sub"
+            android:gravity="end"
+            android:paddingRight="@dimen/_8dp" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Style Default Color-->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/myColorDefaultPrimary</item>
+        <item name="colorPrimaryDark">@color/myColorDefaultPrimaryDark</item>
+        <item name="colorAccent">@color/myColorDefaultAccent</item>
+    </style>
+
+    <style name="MyAppTheme.Grey">
+        <item name="colorPrimary">@color/myColorGreyPrimary</item>
+        <item name="colorPrimaryDark">@color/myColorGreyPrimaryDark</item>
+        <item name="colorAccent">@color/myColorGreyAccent</item>
+    </style>
+
+
+    <style name="Fab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:src">@drawable/ic_fab_add</item>
+        <item name="android:background">@color/myColorGreyAccent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginBottom">@dimen/_16dp</item>
+        <item name="android:layout_marginRight">@dimen/_16dp</item>
+    </style>
+
+
+    <style name="weekIndicatorStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/myColorGreyAccent</item>
+    </style>
+
+    <style name="TextView_Setting_Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_36dp</item>
+        <item name="android:textSize">@dimen/typo_body</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/_4dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/myColorGreyPrimary</item>
+        <item name="android:textColor">@color/myColorGreyWhite</item>
+    </style>
+
+    <style name="TextView_Setting_Body">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_36dp</item>
+        <item name="android:textSize">@dimen/typo_body</item>
+        <item name="android:textColor">@color/myColorGreyText</item>
+        <item name="android:paddingStart">@dimen/_16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Switch_Setting">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_36dp</item>
+        <item name="android:textColor">@color/myColorGreyText</item>
+        <item name="android:textSize">@dimen/typo_body</item>
+        <item name="android:paddingStart">@dimen/_16dp</item>
+        <item name="android:paddingEnd">@dimen/_16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:checked">true</item>
+    </style>
+
+    <style name="TextView_Purpose">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_36dp</item>
+        <item name="android:textColor">@color/myColorGreyText</item>
+        <item name="android:textSize">@dimen/typo_headline_sub</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="EditText_Purpose">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size_36dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">@dimen/typo_body</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="TextView_Btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/size_36dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/typo_btn</item>
+        <item name="android:textColor">@color/myColorGreyAccent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/_8dp</item>
+        <item name="android:layout_margin">@dimen/_4dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

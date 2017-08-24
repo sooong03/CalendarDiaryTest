@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.anima.xd.s.test.PurposeActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="@dimen/size_24dp"
+        android:layout_height="@dimen/size_24dp"
+        app:srcCompat="@drawable/ic_close"
+        android:clickable="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp">
+            <TextView
+                style="@style/TextView_Purpose"
+                android:text="@string/purpose_title"/>
+            <TextView
+                style="@style/TextView_Purpose"
+                android:text="@string/purpose_description"/>
+            <TextView
+                style="@style/TextView_Purpose"
+                android:text="@string/purpose_dtStart"/>
+            <TextView
+                style="@style/TextView_Purpose"
+                android:text="@string/purpose_dtEnd"/>
+            <TextView
+                style="@style/TextView_Purpose"
+                android:text="@string/purpose_allday"/>
+            <TextView
+                style="@style/TextView_Purpose"
+                android:text="@string/purpose_rrule"/>
+            <TextView
+                style="@style/TextView_Purpose"
+                android:text="@string/purpose_rdate"/>
+            <TextView
+                style="@style/TextView_Purpose"
+                android:text="@string/purpose_hasAlarm"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/_16dp">
+
+            <EditText
+                android:id="@+id/etTitle"
+                style="@style/EditText_Purpose"
+                android:hint="@string/purpose_title"/>
+
+            <EditText
+                android:id="@+id/etDescription"
+                style="@style/EditText_Purpose"
+                android:hint="@string/purpose_description"/>
+
+            <CheckBox
+                android:id="@+id/cbAllday"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_36dp"
+                android:text="@string/purpose_allday"
+                android:gravity="right|center_vertical"
+                android:button="@null"
+                android:drawableRight="@drawable/ic_sel_checkbox"
+                android:drawablePadding="@dimen/_8dp"/>
+
+            <DatePicker
+                android:id="@+id/dpStart"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_36dp"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false">
+            </DatePicker>
+
+            <DatePicker
+                android:id="@+id/dpEnd"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_36dp"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false">
+            </DatePicker>
+
+            <Spinner
+                android:id="@+id/spiRrule"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_36dp"
+                android:spinnerMode="dropdown">
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/spiRdate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_36dp"
+                android:spinnerMode="dropdown">
+            </Spinner>
+            <Spinner
+                android:id="@+id/spiAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_36dp"
+                android:spinnerMode="dropdown">
+
+            </Spinner>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_gravity="bottom"
+        >
+
+        <TextView
+            android:id="@+id/tvCancel"
+            style="@style/TextView_Btn"
+            android:text="@string/btn_cancel"/>
+
+        <TextView
+            android:id="@+id/tvOk"
+            style="@style/TextView_Btn"
+            android:text="@string/btn_ok"/>
+    </LinearLayout>
+
+</LinearLayout>

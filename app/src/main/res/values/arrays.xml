@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="titles">
+        <item>Android</item>
+        <item>IOS</item>
+        <item>JAVA</item>
+        <item>C++</item>
+        <item>Ruby</item>
+        <item>WEB</item>
+        <item>HTML</item>
+        <item>PERL</item>
+        <item>C</item>
+        <item>SWIFT</item>
+        <item>Python</item>
+        <item>C</item>
+        <item>C#</item>
+        <item>JS</item>
+    </string-array>
+
+    <string-array name="dashboard_task">
+        <item>어제 일정</item>
+        <item>오늘 일정</item>
+        <item>내일 일정</item>
+    </string-array>
+
+    <string-array name="dashboard_record">
+        <item>기분</item>
+        <item>신체</item>
+    </string-array>
+
+    <string-array name="record_emotion">
+        <item>기쁨</item>
+        <item>좋음</item>
+        <item>우울</item>
+        <item>슬픔</item>
+    </string-array>
+
+    <string-array name="record_body">
+        <item>두통</item>
+        <item>근육통</item>
+        <item>생기넘침</item>
+        <item>피로함</item>
+    </string-array>
+
+
+
+</resources>
